@@ -23,19 +23,17 @@ body {
 HEADER
 */
 header{
-    margin-top: 10px;
+    padding: 20px 0;
 }
 
 .header-flex-container{
-    display: flex;
-    padding-top: 20px;
-    
+    display: flex;    
+    background-color: #D5A11F;    
 }
 
 .header-col-small{
     height: 40px;
     width: calc(100% / 4);
-    background-color: #D5A11F;
     border: dashed black 1px;
     
 }
@@ -43,7 +41,6 @@ header{
 .header-col-big{
     height: 40px;
     width: calc(100% / 2);
-    background-color: #D5A11F;
     border: dashed black 1px;
     
 }
@@ -53,27 +50,114 @@ MAIN
 */
 
 
+/*section 1*/
+
+.flex-container-sec-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section{
+    background-color: #00008B;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.first-box-section-1{
+    background-color: #EE82EE;
+    border: dashed 1px black;
+    height: 380px;
+    width: 800px;
+}
 
 
 
+/*section 2*/
+.flex-container-sec-2{
+    display: flex;
+    
+}
+
+.second-section{
+    height: 500px;
+}
+
+.first-box-section-2{
+    background-color: #1E90FF;
+    border: dashed 1px black;
+    height: 380px;
+    width: 40%;
+}
+
+.second-box-section-2{
+    background-color: #FFC0CB;
+    border: dashed 1px black;
+    height: 380px;
+    width: 60%;
+}
 
 
+/*section 3*/
 
+.third-section{
+    background-color: #D3D3D3;
+    height: 500px;
+}
 
+/*section 4*/
 
+.fourth-section{
+    height: 500px;
+}
 
+/*section 5*/
 
+.fifth-section{
+    background-color: #D3D3D3;
+    height: 800px;
+}
 
 
 /*
 FOOTER
 */
+#line-footer{
+    height: 1px;
+}
+
+.footer-big{
+    background-color: #23272A;
+    height: 500px;
+}
+
+.footer-small{
+    background-color: #23272A;
+    height: 100px;
+}
 
 /*
 DEBUG
 */
 .debug-header{
     background-color: #ADD8E6;
-    height: 80px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
