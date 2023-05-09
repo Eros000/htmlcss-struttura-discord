@@ -28,6 +28,7 @@ header{
 
 .header-flex-container{
     display: flex;
+    padding-top: 20px;
     
 }
 
@@ -47,13 +48,22 @@ header{
     
 }
 
-
-
-
-
 /*
 MAIN
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 FOOTER
@@ -64,6 +74,6 @@ DEBUG
 */
 .debug-header{
     background-color: #ADD8E6;
-    height: 100px;
+    height: 80px;
 }
 
