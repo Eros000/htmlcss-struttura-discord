@@ -18,3 +18,52 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/*
+HEADER
+*/
+header{
+    margin-top: 10px;
+}
+
+.header-flex-container{
+    display: flex;
+    
+}
+
+.header-col-small{
+    height: 40px;
+    width: calc(100% / 4);
+    background-color: #D5A11F;
+    border: dashed black 1px;
+    
+}
+
+.header-col-big{
+    height: 40px;
+    width: calc(100% / 2);
+    background-color: #D5A11F;
+    border: dashed black 1px;
+    
+}
+
+
+
+
+
+/*
+MAIN
+*/
+
+/*
+FOOTER
+*/
+
+/*
+DEBUG
+*/
+.debug-header{
+    background-color: #ADD8E6;
+    height: 100px;
+}
+
