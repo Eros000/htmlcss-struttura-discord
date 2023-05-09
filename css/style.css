@@ -57,13 +57,13 @@ MAIN
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 
 .first-section{
     background-color: #00008B;
     height: 500px;
-    margin-bottom: 50px;
-}
+    }
 
 .first-box-section-1{
     background-color: #EE82EE;
@@ -74,9 +74,11 @@ MAIN
 
 
 
-/*section 2*/
+/*section 2e4*/
 .flex-container-sec-2{
     display: flex;
+    margin-bottom: 50px;
+    padding-top: 50px;
     
 }
 
@@ -101,10 +103,31 @@ MAIN
 
 /*section 3*/
 
+.flex-container-sec-3{
+    display: flex;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
 .third-section{
     background-color: #D3D3D3;
     height: 500px;
 }
+
+.first-box-section-3{
+    background-color: #FFC0CB;
+    border: dashed 1px black;
+    height: 380px;
+    width: 40%;
+}
+.second-box-section-3{
+    background-color: #1E90FF;
+    border: dashed 1px black;
+    height: 380px;
+    width: 60%;
+}
+
 
 /*section 4*/
 
@@ -116,7 +139,23 @@ MAIN
 
 .fifth-section{
     background-color: #D3D3D3;
-    height: 800px;
+    height: 860px;
+}
+
+.flex-container-sec-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+.first-box-section-5{
+    background-color: #228B22;
+    border: dashed 1px black;
+    height: 760px;
+    width: 100%;
+    
 }
 
 
@@ -127,14 +166,78 @@ FOOTER
     height: 1px;
 }
 
+/*BIG*/
+
 .footer-big{
     background-color: #23272A;
     height: 500px;
 }
 
+.flex-container-footer-big{
+    display: flex;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+
+.first-box-footer-big{
+    background-color: #f08080;
+    border: dashed 1px black;
+    height: 380px;
+    width: calc((100% / 3)*1);
+}
+
+.second-box-footer-big{
+    background-color: #20B2AA;
+    border: dashed 1px black;
+    height: 380px;
+    width: calc((100% / 3)* 2);
+}
+
+.columns-footer-big{
+    background-color: #20B2AA;
+    border: dashed 1px white;
+    height: 380px;
+    width: calc(100% / 4);
+}
+
+.flex-container-columns-footer-big{
+    display: flex;
+}
+
+
+
+/*SMALL*/
+
 .footer-small{
     background-color: #23272A;
     height: 100px;
+}
+
+.flex-footer-small{
+    display: flex;
+    padding: 20px;
+}
+
+.row-footer-small{
+    background-color: #7FFFD4;
+    height: 80px;
+    width: 100%;
+}
+
+.flex-columns-footer-small{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columns-footer-small{
+    background-color: #f08080;
+    height: 30px;
+    width: 60px;
+    border: dashed 1px black;
+
 }
 
 /*
@@ -143,6 +246,11 @@ DEBUG
 .debug-header{
     background-color: #ADD8E6;
 }
+
+
+
+
+
 
 
 
